@@ -80,6 +80,7 @@
 		B7D6EE2522C5A92200E17B5F /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
+				B7D6EE9922C5FE0300E17B5F /* Targets */,
 				B7D6EE9822C5FE0300E17B5F /* ModuleA */,
 				B7D6EE3C22C5B9FE00E17B5F /* AViewController */,
 				B7D6EE2622C5A92200E17B5F /* AppDelegate.h */,
@@ -107,7 +108,6 @@
 		B7D6EE9822C5FE0300E17B5F /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				B7D6EE9922C5FE0300E17B5F /* Targets */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";
