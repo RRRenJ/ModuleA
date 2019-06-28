@@ -14,7 +14,7 @@
 		B7D6EE3322C5A92300E17B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D6EE3122C5A92300E17B5F /* LaunchScreen.storyboard */; };
 		B7D6EE3622C5A92300E17B5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6EE3522C5A92300E17B5F /* main.m */; };
 		B7D6EE3F22C5B9FE00E17B5F /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6EE3D22C5B9FE00E17B5F /* AViewController.m */; };
-		B7D6EE6D22C5EB3600E17B5F /* Targets_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6EE6C22C5EB3600E17B5F /* Targets_ModuleA.m */; };
+		B7D6EE9C22C5FE0300E17B5F /* Targets_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6EE9A22C5FE0300E17B5F /* Targets_ModuleA.m */; };
 		D145F1EB0F44426415A86091 /* Pods_ModuleA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4348C1F8658B055E2B92EA /* Pods_ModuleA.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +34,8 @@
 		B7D6EE3522C5A92300E17B5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7D6EE3D22C5B9FE00E17B5F /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		B7D6EE3E22C5B9FE00E17B5F /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		B7D6EE6B22C5EB3600E17B5F /* Targets_ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Targets_ModuleA.h; sourceTree = "<group>"; };
-		B7D6EE6C22C5EB3600E17B5F /* Targets_ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Targets_ModuleA.m; sourceTree = "<group>"; };
+		B7D6EE9A22C5FE0300E17B5F /* Targets_ModuleA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Targets_ModuleA.m; sourceTree = "<group>"; };
+		B7D6EE9B22C5FE0300E17B5F /* Targets_ModuleA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Targets_ModuleA.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 		B7D6EE2522C5A92200E17B5F /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				B7D6EE6A22C5EAFC00E17B5F /* Targets */,
+				B7D6EE9822C5FE0300E17B5F /* ModuleA */,
 				B7D6EE3C22C5B9FE00E17B5F /* AViewController */,
 				B7D6EE2622C5A92200E17B5F /* AppDelegate.h */,
 				B7D6EE2722C5A92200E17B5F /* AppDelegate.m */,
@@ -104,11 +104,19 @@
 			path = AViewController;
 			sourceTree = "<group>";
 		};
-		B7D6EE6A22C5EAFC00E17B5F /* Targets */ = {
+		B7D6EE9822C5FE0300E17B5F /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				B7D6EE6B22C5EB3600E17B5F /* Targets_ModuleA.h */,
-				B7D6EE6C22C5EB3600E17B5F /* Targets_ModuleA.m */,
+				B7D6EE9922C5FE0300E17B5F /* Targets */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		B7D6EE9922C5FE0300E17B5F /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6EE9A22C5FE0300E17B5F /* Targets_ModuleA.m */,
+				B7D6EE9B22C5FE0300E17B5F /* Targets_ModuleA.h */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -244,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7D6EE6D22C5EB3600E17B5F /* Targets_ModuleA.m in Sources */,
+				B7D6EE9C22C5FE0300E17B5F /* Targets_ModuleA.m in Sources */,
 				B7D6EE3F22C5B9FE00E17B5F /* AViewController.m in Sources */,
 				B7D6EE2B22C5A92200E17B5F /* ViewController.m in Sources */,
 				B7D6EE3622C5A92300E17B5F /* main.m in Sources */,
