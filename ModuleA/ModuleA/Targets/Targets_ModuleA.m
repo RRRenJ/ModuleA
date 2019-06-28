@@ -16,7 +16,7 @@
 @implementation Targets_ModuleA
 
 #pragma mark - public
-- (UIViewController *)action_viewController:(NSDictionary *)params{
+- (UIViewController *)Action_viewController:(NSDictionary *)params{
     AViewController * vc = [[AViewController alloc]init];
     return vc;
 }
